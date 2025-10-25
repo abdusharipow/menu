@@ -26,18 +26,24 @@
         <div class="card"><img src="img/photo_2025-10-23_17-42-41.jpg"><h3>Франк Бургер: 55.000</h3></div>
         <div class="card"><img src="img/photo_2025-10-23_17-42-41.jpg"><h3>Биг Бургер: 43.000</h3></div>
         <div class="card"><img src="img/photo_2025-10-23_17-42-41.jpg"><h3>Обычный Бургер: 33.000</h3></div>
-        <div class="card"><img src="img/photo_2025-10-23_17-37-39.jpg"><h3>Пита Мол Гошти: 33.000</h3></div>
-        <div class="card"><img src="img/photo_2025-10-23_17-37-39.jpg"><h3>Пита Товук гошти: 25.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-24_18-04-17.jpg"><h3>Пита Мол Гошти: 33.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-24_18-04-17.jpg"><h3>Пита Товук гошти: 25.000</h3></div>
         <div class="card"><img src="img/istockphoto-510041483-612x612.jpg"><h3>Фри Айдаха: 12.000</h3></div>
-        <div class="card"><img src="img/images.jpg"><h3>Хот Дог Обычный:12.000,Двойной:15.000,Мясной:35.000,Острий:34.000  </h3></div>
+        <div class="card"><img src="img/photo_2025-10-25_13-16-16.jpg"><h3>Хот Дог Обычный:12.000,Двойной:15.000,Мясной:35.000,Острий:34.000  </h3></div>
         <div class="card"><img src="img/photo_2025-10-23_18-11-00.jpg"><h3>Гамбургер: 18.000</h3></div>
         <div class="card"><img src="img/ba9368d6a6421be3f4ddab718444ceae.jpeg"><h3>Суши запеченный курица острый: 37.000</h3></div>
         <div class="card"><img src="img/ba9368d6a6421be3f4ddab718444ceae.jpeg"><h3>Суши запеченный крап: 42.000</h3></div>
         <div class="card"><img src="img/ba9368d6a6421be3f4ddab718444ceae.jpeg"><h3>Суши запеченный ласос острый: 40.000</h3></div>
-        <div class="card"><img src="img/u-e0597bef3754586be60a7d049b532962.jpg"><h3>Жареный рол:40.000</h3></div>
-        <div class="card"><img src="img/shaurma-istoriya-lyubvi-dlinoj-v-tysyacheletie.jpg"><h3>Шаверма: Обычный: 25.000, Сырный: 27.000 </h3></div>
+        <div class="card"><img src="img/photo_2025-10-24_18-04-08.jpg"><h3>Жареный рол:40.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-24_18-04-06.jpg"><h3>Шаверма: Обычный: 25.000, Сырный: 27.000 </h3></div>
         <div class="card"><img src="img/big_302085 (1).jpg"><h3>Лаваш: Острый: 34.000, Тандир: 36.000</h3></div>
-        <div class="card"><img src="img/_2022-11-22_11165210.png.webp">Сир Пицца: 55.000, 65.000<h3>Ovqat 15</h3></div>
+        <div class="card"><img src="img/_2022-11-22_11165210.png.webp"><h3>Сир Пицца: 55.000, 65.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-25_13-22-00.jpg"><h3>Биф Кабаоб: 40см, 30см: 75.000, 90.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-23_17-35-41.jpg"><h3>Чоко Пицца: 90.0000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-25_13-24-40.jpg"><h3>Куренный: 65.000, 75.000</h3></div>
+        <div class="card"><img src="img/KEV_4203_800x520-1.jpg"><h3>Шаверма Пицца: 60.000, 75.000</h3></div>
+        <div class="card"><img src="img/988556_780x.webp"><h3>Маргарита Пицца: 90.000,80.000</h3></div>
+        <div class="card"><img src="img/1600x1600 (1).webp"><h3>Пепероний Пицца: 65.000, 75.000</h3></div>
       </div>
       <button class="back-btn" onclick="goBack()">⬅️ Orqaga</button>
     </section>
@@ -87,6 +93,22 @@
         <button class="back-btn" onclick="goBack()">⬅️ Orqaga</button>
       </section>
     </main>
+      <footer>
+      <p>© 2025 Bizning Restoran</p>
+    </footer>
+  
+    <script>
+      function showSection(id) {
+        document.getElementById('menu-buttons').style.display = 'none';
+        document.querySelectorAll('section').forEach(sec => sec.classList.add('hidden'));
+        document.getElementById(id).classList.remove('hidden');
+      }
+  
+      function goBack() {
+        document.querySelectorAll('section').forEach(sec => sec.classList.add('hidden'));
+        document.getElementById('menu-buttons').style.display = 'flex';
+      }
+    </script>
 
 </body>
 </html>
