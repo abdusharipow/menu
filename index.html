@@ -10,5 +10,83 @@
   <header>
     <h1>🍽 Bizning Online Menu</h1>
   </header>
+   <main>
+    <!-- Asosiy tugmalar -->
+    <div id="menu-buttons" class="menu-buttons">
+      <button onclick="showSection('ovqatlar')">Ovqatlar</button>
+      <button onclick="showSection('shirinliklar')">Shirinliklar</button>
+      <button onclick="showSection('ichimliklar')">Ichimliklar</button>
+      <button onclick="showSection('joylashuv')">Joylashuv</button>
+    </div>
+
+    <!-- Ovqatlar -->
+    <section id="ovqatlar" class="hidden">
+      <h2>🍲 Ovqatlar</h2>
+      <div class="grid">
+        <div class="card"><img src="img/photo_2025-10-23_17-42-41.jpg"><h3>Франк Бургер: 55.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-23_17-42-41.jpg"><h3>Биг Бургер: 43.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-23_17-42-41.jpg"><h3>Обычный Бургер: 33.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-23_17-37-39.jpg"><h3>Пита Мол Гошти: 33.000</h3></div>
+        <div class="card"><img src="img/photo_2025-10-23_17-37-39.jpg"><h3>Пита Товук гошти: 25.000</h3></div>
+        <div class="card"><img src="img/istockphoto-510041483-612x612.jpg"><h3>Фри Айдаха: 12.000</h3></div>
+        <div class="card"><img src="img/images.jpg"><h3>Хот Дог Обычный:12.000,Двойной:15.000,Мясной:35.000,Острий:34.000  </h3></div>
+        <div class="card"><img src="img/photo_2025-10-23_18-11-00.jpg"><h3>Гамбургер: 18.000</h3></div>
+        <div class="card"><img src="img/ba9368d6a6421be3f4ddab718444ceae.jpeg"><h3>Суши запеченный курица острый: 37.000</h3></div>
+        <div class="card"><img src="img/ba9368d6a6421be3f4ddab718444ceae.jpeg"><h3>Суши запеченный крап: 42.000</h3></div>
+        <div class="card"><img src="img/ba9368d6a6421be3f4ddab718444ceae.jpeg"><h3>Суши запеченный ласос острый: 40.000</h3></div>
+        <div class="card"><img src="img/u-e0597bef3754586be60a7d049b532962.jpg"><h3>Жареный рол:40.000</h3></div>
+        <div class="card"><img src="img/shaurma-istoriya-lyubvi-dlinoj-v-tysyacheletie.jpg"><h3>Шаверма: Обычный: 25.000, Сырный: 27.000 </h3></div>
+        <div class="card"><img src="img/big_302085 (1).jpg"><h3>Лаваш: Острый: 34.000, Тандир: 36.000</h3></div>
+        <div class="card"><img src="img/_2022-11-22_11165210.png.webp">Сир Пицца: 55.000, 65.000<h3>Ovqat 15</h3></div>
+      </div>
+      <button class="back-btn" onclick="goBack()">⬅️ Orqaga</button>
+    </section>
+
+    <!-- Shirinliklar -->
+    <section id="shirinliklar" class="hidden">
+      <h2>🧁 Shirinliklar</h2>
+      <div class="grid">
+        <div class="card"><img src="rasmlar/shirinlik1.jpg"><h3>Shirinlik 1</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik2.jpg"><h3>Shirinlik 2</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik3.jpg"><h3>Shirinlik 3</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+        <div class="card"><img src="rasmlar/shirinlik4.jpg"><h3>Shirinlik 4</h3></div>
+      </div>
+      <button class="back-btn" onclick="goBack()">⬅️ Orqaga</button>
+    </section>
+
+
+    <!-- Ichimliklar -->
+    <section id="ichimliklar" class="hidden">
+      <h2>🥤 Ichimliklar</h2>
+      <div class="grid">
+        <div class="card"><img src="rasmlar/ichimlik1.jpg"><h3>Ichimlik 1</h3></div>
+        <div class="card"><img src="rasmlar/ichimlik2.jpg"><h3>Ichimlik 2</h3></div>
+        <div class="card"><img src="rasmlar/ichimlik3.jpg"><h3>Ichimlik 3</h3></div>
+        <div class="card"><img src="rasmlar/ichimlik4.jpg"><h3>Ichimlik 4</h3></div>
+      </div>
+      <button class="back-btn" onclick="goBack()">⬅️ Orqaga</button>
+    </section>
+    
+
+    <!-- Joylashuv -->
+    <section id="joylashuv" class="hidden">
+        <h2>📍 Joylashuv</h2>
+        <p>Bizni quyidagi manzilda topishingiz mumkin:</p>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!..." 
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+        <button class="back-btn" onclick="goBack()">⬅️ Orqaga</button>
+      </section>
+    </main>
+
 </body>
 </html>
